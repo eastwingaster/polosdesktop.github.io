@@ -1,0 +1,133 @@
+﻿@charset "utf-8";
+
+html {
+	overflow-x: hidden;
+}
+
+video{
+	position:fixed;
+	width:auto;
+	height:auto;
+	top:0;
+	z-index:-9999;
+	}
+body {
+	margin:0;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+.hard-box {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.logo-large {
+	height: 150px;
+	width: 100px;
+	background-size: 100% 100%;
+	background-image: url('logos/polos_desktop.png');
+	background-repeat: no-repeat;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+.logo-small {
+	height: 50px;
+	width: 50px;
+	background-size: 100% 100%;
+	background-image: url('logos/polos_desktop_circle.png');
+	background-repeat: no-repeat;
+	margin-left: 40px;
+	margin-right: 20px;
+		-moz-transition: 1s;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+}
+.logo-small:hover{
+	transform:rotateY(180deg);}
+.group-font {
+	font-size: 36px;
+	width: 300px;
+}
+.简，不止如此 {
+	font-size: 17px;
+	margin-bottom: 10px;
+	cursor: default;
+}
+.butto {
+	background: #333333;
+	color: #FFFFFF;
+	padding: 10px;
+	border-radius: 5px;
+	height: 45px;
+	width: 180px;
+	font-size: 17px;
+	text-align:center;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	cursor: default;
+
+}
+.between-box {
+	margin: auto;
+	max-width: 5000px;
+	min-width: 400px;
+	position: absolute;
+    top: 50%;
+	margin-top: -250px;
+}
+.支持 {
+	font-size: 14px;
+	margin-top: 10px;
+	width:500px;
+}
+
+.支持 a{
+	text-decoration: none;
+}
+
+.between-box-right-in {
+	float: right;
+	background-image: url('222.png');
+	background-size: cover;
+	backdrop-filter: blur(10px);
+	width: 800px;
+	height: 450px;
+	transform: translateX(50px);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	/* animation:jump-down-plarer 3s;
+	animation-iteration-count: infinite; */
+}
+.between-box-right-in:hover{
+	transform: translateX(-100px);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.end {
+	width: 3000px;
+	padding: 10px 20px;
+	position: fixed;
+	bottom: 0;
+	margin: 5px;
+	color:#3E3E3E;
+	cursor: default;
+}
+div{
+	font-family: "oppo sans";
+}
+.small-gift{
+	background-repeat: no-repeat;
+	margin:0px 5px;
+}
+@keyframes jump-down-plarer{
+	1%{
+		margin-top:0px;}
+		50%{
+			margin-top:50px;}
+		100%{
+			margin-top:0px;}
+	}
